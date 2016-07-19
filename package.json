@@ -1,0 +1,20 @@
+{
+  "name": "cluster",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodejs cluster.js"
+  },
+  "dependencies": {
+    "express": "3.3.5",
+    "ejs": "*",
+    "body-parser": "~1.14.2",
+    "tingodb": "~0.4.2",
+    "angular": "~1.4.8",
+    "angular-resource": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.1.4",
+    "jwt-simple": "~0.4.0"
+  }
+}

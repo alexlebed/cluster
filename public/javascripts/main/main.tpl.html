@@ -1,0 +1,23 @@
+<div ng-include="'../public/javascripts/partials/navTemplate.html'"></div>
+<div class="container-fluid">
+  <div class="row">
+		<ul>
+			<li ng-repeat="u in users">Pid: {{u.name}}</li>
+		</ul>
+		<div class="bs-example">
+			<form role="form" name="form1">
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Function</label>
+			    <textarea rows="10" cols="45" name="text" type="text" placeholder="Enter Function"  class="form-control" ng-model="user.Function" required></textarea>
+			  </div>
+			  <button class="btn btn-default" type="submit" ng-click="sendFunction()" ng-disabled="form1.$invalid">Submit</button>
+			  {{process}}
+			</form>
+			<div class="alert alert-danger alert-dismissible inform" role="alert">
+			  <button type="button" class="close" ng-click="closeErr()"><span>&times;</span></button>
+			  <strong>Warning!</strong> Entered data incorrectly!
+			</div>
+		</div>
+  </div>
+</div>
+

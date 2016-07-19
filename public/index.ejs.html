@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    
+    <title>Cluster</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel='stylesheet' href='../public/stylesheets/style.css' />
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="../node_modules/angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="../node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app.js"></script>
+
+    <script type="text/javascript" src="../public/javascripts/directives/result.dir.js"></script>
+    <script type="text/javascript" src="../public/javascripts/result/result.module.js"></script>
+    <script type="text/javascript" src="../public/javascripts/result/result.controller.js"></script>
+    <script type="text/javascript" src="../public/javascripts/services/loginservice.js"></script>
+
+    <script type="text/javascript" src="../public/javascripts/directives/login.dir.js"></script>
+    <script type="text/javascript" src="../public/javascripts/login/login.module.js"></script>
+    <script type="text/javascript" src="../public/javascripts/login/login.controller.js"></script>
+
+    <script type="text/javascript" src="../public/javascripts/directives/main.dir.js"></script>
+    <script type="text/javascript" src="../public/javascripts/main/main.module.js"></script>
+    <script type="text/javascript" src="../public/javascripts/main/main.controller.js"></script>
+
+
+
+  </head>
+  <body>
+      <ng-view></ng-view>
+  </body>
+</html>

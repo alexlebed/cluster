@@ -1,0 +1,28 @@
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+               
+                    <h1>Login</h1>
+
+                    {{message}}
+                    <form ng-submit="login()" role="form" name="form1og">
+                      <p>
+                        <label class="control-label">Username</label>
+                        <input type="text" placeholder="Username" ng-model="user.username" required/>
+                      </p>
+                      <p>
+                        <label class="control-label">Password</label>
+                        <input type="password" placeholder="Password" ng-model="user.password" required/><br/>
+                      </p>
+                      <p>
+                        <button type="submit" class="btn btn-primary" ng-disabled="form1og.$invalid">Login</button>
+                      </p>
+                      <p>
+                      <i>username: admin<br/>password: admin</i>
+                      </p>
+                    </form>
+            </div>
+        </div>
+    </div>
+
+
